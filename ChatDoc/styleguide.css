@@ -1,0 +1,27 @@
+:root { 
+    --alien-armpit: #73d90c;
+    --black: #000000;
+    --ronchi: #e5cd4c;
+    --white: #ffffff;
+   
+    --font-size-l2: 36px;
+    --font-size-xl: 96px;
+   
+    --font-family-saira_condensed: "Saira Condensed", Helvetica;
+  }
+  .sairacondensed-normal-white-36px {
+    color: var(--white);
+    font-family: var(--font-family-saira_condensed);
+    font-size: var(--font-size-l2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  
+  .sairacondensed-normal-black-36px {
+    color: var(--black);
+    font-family: var(--font-family-saira_condensed);
+    font-size: var(--font-size-l2);
+    font-style: normal;
+    font-weight: 400;
+  }
+  

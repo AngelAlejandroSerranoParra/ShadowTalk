@@ -1,0 +1,118 @@
+.index {
+    align-items: center;
+    background-color: var(--black);
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .index .title {
+    color: var(--white);
+    font-family: var(--font-family-saira_condensed);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3.0px;
+    margin-top: -1px;
+    min-height: 121px;
+    text-align: center;
+    width: 429px;
+  }
+  
+  .index .overlap-group1 {
+    align-items: center;
+    background-color: #1312128a;
+    border-color: var(--alien-armpit);
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-right-style: solid;
+    border-right-width: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3.0px;
+    margin-top: 1px;
+    min-height: 627px;
+    padding: 106px 62px;
+    width: 439px;
+  }
+  
+  .index .usuario {
+    align-self: flex-start;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 58px;
+    text-align: center;
+    width: 295px;
+  }
+  
+  .index .rectangle {
+    border: 1px solid;
+    border-color: var(--white);
+    height: 36px;
+    margin-right: 20.0px;
+    margin-top: 1px;
+    width: 251px;
+  }
+  
+  .index .contrasea {
+    align-self: flex-start;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: 11px;
+    min-height: 58px;
+    text-align: center;
+    width: 295px;
+  }
+  
+  .index .overlap-group2 {
+    height: 58px;
+    margin-left: 2.0px;
+    margin-top: 60px;
+    position: relative;
+    width: 295px;
+  }
+  
+  .index .rectangle-6 {
+    background-color: var(--alien-armpit);
+    height: 40px;
+    left: 72px;
+    position: absolute;
+    top: 10px;
+    width: 150px;
+  }
+  
+  .index .iniciar {
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 295px;
+  }
+  
+  .index .overlap-group {
+    align-items: flex-start;
+    background-color: var(--alien-armpit);
+    display: flex;
+    height: 163px;
+    margin-top: 113px;
+    min-width: 1440px;
+    padding: 15px 33px;
+  }
+  
+  .index .acerca-de-la-pagina {
+    color: var(--white);
+    font-family: var(--font-family-saira_condensed);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 124px;
+    text-align: center;
+    width: 1368px;
+  }
+  
