@@ -1,118 +1,444 @@
 .index {
-    align-items: center;
-    background-color: var(--black);
+    align-items: flex-start;
+    background-color: #000000;
     border: 1px none;
     display: flex;
-    flex-direction: column;
     height: 1024px;
     width: 1440px;
   }
   
-  .index .title {
-    color: var(--white);
-    font-family: var(--font-family-saira_condensed);
-    font-size: var(--font-size-xl);
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-left: 3.0px;
-    margin-top: -1px;
-    min-height: 121px;
-    text-align: center;
-    width: 429px;
+  .index .overlap-group-container {
+    height: 1037px;
+    margin-top: -13px;
+    position: relative;
+    width: 1440px;
   }
   
-  .index .overlap-group1 {
-    align-items: center;
+  .index .overlap-group2 {
+    height: 1037px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .index .rectangle-3 {
     background-color: #1312128a;
     border-color: var(--alien-armpit);
     border-left-style: solid;
     border-left-width: 10px;
     border-right-style: solid;
     border-right-width: 10px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 3.0px;
-    margin-top: 1px;
-    min-height: 627px;
-    padding: 106px 62px;
+    height: 919px;
+    left: 965px;
+    position: absolute;
+    top: 118px;
     width: 439px;
   }
   
-  .index .usuario {
-    align-self: flex-start;
-    letter-spacing: 0;
-    line-height: normal;
-    min-height: 58px;
-    text-align: center;
-    width: 295px;
-  }
-  
-  .index .rectangle {
-    border: 1px solid;
-    border-color: var(--white);
-    height: 36px;
-    margin-right: 20.0px;
-    margin-top: 1px;
-    width: 251px;
-  }
-  
-  .index .contrasea {
-    align-self: flex-start;
-    letter-spacing: 0;
-    line-height: normal;
-    margin-top: 11px;
-    min-height: 58px;
-    text-align: center;
-    width: 295px;
-  }
-  
-  .index .overlap-group2 {
-    height: 58px;
-    margin-left: 2.0px;
-    margin-top: 60px;
-    position: relative;
-    width: 295px;
-  }
-  
-  .index .rectangle-6 {
+  .index .rectangle-8 {
     background-color: var(--alien-armpit);
-    height: 40px;
-    left: 72px;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-color: #335b0c;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 150px;
+    left: 0;
     position: absolute;
-    top: 10px;
-    width: 150px;
+    top: 13px;
+    width: 1440px;
   }
   
-  .index .iniciar {
-    left: 0;
+  .index .title {
+    left: 511px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
     top: 0;
-    width: 295px;
+    width: 418px;
+  }
+  
+  .index .rectangle {
+    background-color: var(--alien-armpit);
+    height: 73px;
+    left: 985px;
+    position: absolute;
+    top: 235px;
+    width: 400px;
+  }
+  
+  .index .profile-user {
+    height: 50px;
+    left: 1060px;
+    object-fit: cover;
+    position: absolute;
+    top: 246px;
+    width: 50px;
+  }
+  
+  .index .alex-alejandro {
+    height: 50px;
+    left: 1118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 245px;
+    width: 184px;
+  }
+  
+  .index .nuevo-post {
+    height: 50px;
+    left: 992px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 310px;
+    width: 150px;
+  }
+  
+  .index .rectangle-15 {
+    background-color: var(--alien-armpit);
+    height: 73px;
+    left: 985px;
+    position: absolute;
+    top: 450px;
+    width: 400px;
+  }
+  
+  .index .foro {
+    height: 59px;
+    left: 1118px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 453px;
+    width: 137px;
+  }
+  
+  .index .rectangle-23 {
+    background-color: #0f0d79;
+    border-radius: 10px;
+    height: 34px;
+    left: 985px;
+    position: absolute;
+    top: 541px;
+    width: 109px;
+  }
+  
+  .index .rectangle-24 {
+    background-color: #d8942e;
+    border-radius: 10px;
+    height: 34px;
+    left: 1126px;
+    position: absolute;
+    top: 541px;
+    width: 109px;
+  }
+  
+  .index .rectangle-25 {
+    background-color: #f81717;
+    border-radius: 10px;
+    height: 35px;
+    left: 1276px;
+    position: absolute;
+    top: 539px;
+    width: 109px;
+  }
+  
+  .index .rectangle-26 {
+    background-color: #26455c;
+    border-radius: 10px;
+    height: 35px;
+    left: 985px;
+    position: absolute;
+    top: 606px;
+    width: 109px;
+  }
+  
+  .index .rectangle-27 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 35px;
+    left: 1126px;
+    position: absolute;
+    top: 606px;
+    width: 109px;
+  }
+  
+  .index .rectangle-28 {
+    background-color: #d9d9d9;
+    border-radius: 10px;
+    height: 34px;
+    left: 1276px;
+    position: absolute;
+    top: 605px;
+    width: 109px;
+  }
+  
+  .index .modern-warfar {
+    height: 26px;
+    left: 992px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 543px;
+    width: 95px;
+  }
+  
+  .index .warzone {
+    height: 26px;
+    left: 992px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 609px;
+    width: 95px;
+  }
+  
+  .index .zombies {
+    height: 26px;
+    left: 1283px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 543px;
+    width: 95px;
+  }
+  
+  .index .cold-war {
+    height: 26px;
+    left: 1133px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 545px;
+    width: 95px;
+  }
+  
+  .index .line {
+    left: 992px;
+    top: 361px;
+  }
+  
+  .index .mis-post {
+    height: 50px;
+    left: 1228px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 310px;
+    width: 150px;
+  }
+  
+  .index .line-1 {
+    left: 1228px;
+    top: 361px;
+  }
+  
+  .index .line-2 {
+    left: 1110px;
+    top: 419px;
+  }
+  
+  .index .ajustes {
+    height: 50px;
+    left: 1110px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 369px;
+    width: 150px;
+  }
+  
+  .index .overlap-group3 {
+    height: 150px;
+    left: 36px;
+    position: absolute;
+    top: 261px;
+    width: 730px;
+  }
+  
+  .index .rectangle-9 {
+    background-color: #100e79;
+    border: 5px solid;
+    border-color: var(--alien-armpit);
+    border-radius: 5px;
+    height: 150px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 710px;
+  }
+  
+  .index .rectangle-1 {
+    background-color: var(--ronchi);
+    border-radius: 5px;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 400px;
+  }
+  
+  .index .usuario {
+    height: 52px;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    width: 340px;
+  }
+  
+  .index .tema-a-tratar {
+    height: 100px;
+    left: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 49px;
+    width: 700px;
+  }
+  
+  .index .rectangle-2 {
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 50px;
+    left: 680px;
+    position: absolute;
+    top: 0;
+    width: 50px;
+  }
+  
+  .index .xbox-logo {
+    height: 20px;
+    left: 695px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 20px;
+  }
+  
+  .index .pilot {
+    height: 100px;
+    left: 548px;
+    object-fit: cover;
+    position: absolute;
+    top: 32px;
+    width: 100px;
   }
   
   .index .overlap-group {
-    align-items: flex-start;
-    background-color: var(--alien-armpit);
-    display: flex;
-    height: 163px;
-    margin-top: 113px;
-    min-width: 1440px;
-    padding: 15px 33px;
+    height: 150px;
+    left: 36px;
+    position: absolute;
+    top: 703px;
+    width: 730px;
   }
   
-  .index .acerca-de-la-pagina {
-    color: var(--white);
-    font-family: var(--font-family-saira_condensed);
-    font-size: var(--font-size-m);
-    font-weight: 400;
+  .index .rectangle-13 {
+    background-color: #f91818;
+    border: 5px solid;
+    border-color: var(--alien-armpit);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 150px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 710px;
+  }
+  
+  .index .tema-a-tratar-1 {
+    height: 100px;
+    left: 30px;
     letter-spacing: 0;
     line-height: normal;
-    min-height: 124px;
-    text-align: center;
-    width: 1368px;
+    position: absolute;
+    top: 24px;
+    width: 700px;
+  }
+  
+  .index .rectangle-22 {
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 50px;
+    left: 680px;
+    position: absolute;
+    top: 1px;
+    width: 50px;
+  }
+  
+  .index .monitor {
+    height: 21px;
+    left: 694px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 21px;
+  }
+  
+  .index .living-dead {
+    height: 100px;
+    left: 548px;
+    object-fit: cover;
+    position: absolute;
+    top: 18px;
+    width: 100px;
+  }
+  
+  .index .overlap-group1 {
+    height: 150px;
+    left: 36px;
+    position: absolute;
+    top: 475px;
+    width: 730px;
+  }
+  
+  .index .rectangle-11 {
+    background-color: #d8942e;
+    border: 5px solid;
+    border-color: var(--alien-armpit);
+    border-radius: 5px;
+    height: 150px;
+    left: 20px;
+    position: absolute;
+    top: 0;
+    width: 710px;
+  }
+  
+  .index .playstation-logotype {
+    height: 21px;
+    left: 694px;
+    object-fit: cover;
+    position: absolute;
+    top: 15px;
+    width: 21px;
+  }
+  
+  .index .hammer {
+    height: 100px;
+    left: 548px;
+    object-fit: cover;
+    position: absolute;
+    top: 32px;
+    width: 100px;
+  }
+  
+  .index .line-3 {
+    height: 1px;
+    object-fit: cover;
+    position: absolute;
+    width: 150px;
   }
   
